@@ -1,0 +1,290 @@
+{
+    "drinks": [
+      {
+        "name": "Mango Smoothie",
+        "description": "A refreshing blend of ripe mangoes and yogurt.",
+        "price": 3.99,
+        "image": ""
+      },
+      {
+        "name": "Lemon Iced Tea",
+        "description": "Chilled tea with a tangy lemon twist.",
+        "price": 2.49,
+        "image": "https://www.vecteezy.com/photo/59410065-refreshing-iced-lemon-tea-with-fresh-mint-and-sliced-lemons"
+      },
+      {
+        "name": "Cold Coffee",
+        "description": "Iced coffee blended with chocolate syrup.",
+        "price": 3.75,
+        "image": "https://www.vecteezy.com/photo/43122132-mocha-chocolate-with-coffee-beans-served-in-glass-isolated-on-table-side-view-of-healthy-drink"
+      },
+      {
+        "name": "Strawberry Shake",
+        "description": "Creamy strawberry milkshake topped with whipped cream.",
+        "price": 4.25,
+        "image": "https://images.pexels.com/photos/3727250/pexels-photo-3727250.jpeg"
+      },
+      {
+        "name": "Orange Juice",
+        "description": "Freshly squeezed orange juice.",
+        "price": 2.99,
+        "image": "https://images.pexels.com/photos/1536871/pexels-photo-1536871.jpeg"
+      },
+      {
+        "name": "Watermelon Juice",
+        "description": "Cool and hydrating watermelon drink.",
+        "price": 2.50,
+        "image": "https://images.pexels.com/photos/5365887/pexels-photo-5365887.jpeg"
+      },
+      {
+        "name": "Mint Mojito",
+        "description": "Sparkling mojito with fresh mint and lime.",
+        "price": 3.49,
+        "image": "https://images.pexels.com/photos/4021983/pexels-photo-4021983.jpeg"
+      },
+      {
+        "name": "Lassi",
+        "description": "Traditional sweet or salty Indian yogurt drink.",
+        "price": 2.75,
+        "image": "https://www.foodista.com/sites/default/files/styles/featured/public/field/image/mango-lassi.jpg"
+      },
+      {
+        "name": "Pineapple Punch",
+        "description": "Zesty pineapple juice with a hint of mint.",
+        "price": 3.10,
+        "image": "https://images.pexels.com/photos/1516982/pexels-photo-1516982.jpeg"
+      },
+      {
+        "name": "Masala Chai",
+        "description": "Indian spiced tea with milk.",
+        "price": 1.99,
+        "image": "https://images.pexels.com/photos/5591671/pexels-photo-5591671.jpeg"
+      },
+      {
+        "name": "Coconut Water",
+        "description": "Chilled fresh coconut water.",
+        "price": 2.20,
+        "image": "https://images.pexels.com/photos/1937743/pexels-photo-1937743.jpeg"
+      },
+      {
+        "name": "Green Tea",
+        "description": "Hot green tea rich in antioxidants.",
+        "price": 2.00,
+        "image": "https://images.pexels.com/photos/4009398/pexels-photo-4009398.jpeg"
+      },
+      {
+        "name": "Blueberry Fizz",
+        "description": "Fizzy soda with blueberry extract.",
+        "price": 3.80,
+        "image": "https://images.pexels.com/photos/3966908/pexels-photo-3966908.jpeg"
+      },
+      {
+        "name": "Cappuccino",
+        "description": "Freshly brewed cappuccino with a creamy top.",
+        "price": 3.50,
+        "image": "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg"
+      },
+      {
+        "name": "Peach Iced Tea",
+        "description": "Peach-flavored iced tea with a fruity aroma.",
+        "price": 2.60,
+        "image": ""
+      }
+    ],
+    "starter": [
+      {
+        "name": "Spring Rolls",
+        "description": "Crispy rolls stuffed with veggies.",
+        "price": 4.99,
+        "image": "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg"
+      },
+      {
+        "name": "Paneer Tikka",
+        "description": "Marinated paneer cubes grilled to perfection.",
+        "price": 6.49,
+        "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg"
+      },
+      {
+        "name": "Chicken Wings",
+        "description": "Spicy and tangy chicken wings.",
+        "price": 7.50,
+        "image": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg"
+      },
+      {
+        "name": "Veg Manchurian",
+        "description": "Fried veggie balls in a spicy Indo-Chinese sauce.",
+        "price": 5.99,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/10/veg-manchurian-gravy-recipe-1.jpg"
+      },
+      {
+        "name": "Cheese Balls",
+        "description": "Fried cheese-stuffed crispy balls.",
+        "price": 4.75,
+        "image": "https://images.pexels.com/photos/5700186/pexels-photo-5700186.jpeg"
+      },
+      {
+        "name": "Stuffed Mushrooms",
+        "description": "Baked mushrooms filled with cheese and herbs.",
+        "price": 6.00,
+        "image": "https://images.pexels.com/photos/262947/pexels-photo-262947.jpeg"
+      },
+      {
+        "name": "Garlic Bread",
+        "description": "Crispy garlic-flavored bread with butter.",
+        "price": 3.25,
+        "image": "https://images.pexels.com/photos/1070053/pexels-photo-1070053.jpeg"
+      },
+      {
+        "name": "Corn Chaat",
+        "description": "Tangy chaat made with sweet corn and spices.",
+        "price": 3.75,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/07/corn-chaat-recipe-1.jpg"
+      },
+      {
+        "name": "Nachos",
+        "description": "Crispy nachos served with cheese and salsa.",
+        "price": 5.50,
+        "image": "https://images.pexels.com/photos/1200348/pexels-photo-1200348.jpeg"
+      },
+      {
+        "name": "Chilli Paneer",
+        "description": "Spicy paneer cubes tossed in chili sauce.",
+        "price": 6.25,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/chilli-paneer-recipe-1.jpg"
+      },
+      {
+        "name": "Hara Bhara Kebab",
+        "description": "Green vegetable kebabs rich in flavor.",
+        "price": 4.80,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/03/hara-bhara-kabab-recipe-1.jpg"
+      },
+      {
+        "name": "Samosa",
+        "description": "Classic Indian pastry stuffed with spicy potato mix.",
+        "price": 1.50,
+        "image": "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg"
+      },
+      {
+        "name": "Onion Rings",
+        "description": "Deep-fried onion rings in crispy batter.",
+        "price": 3.20,
+        "image": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg"
+      },
+      {
+        "name": "Fish Fingers",
+        "description": "Battered fish sticks served with tartar sauce.",
+        "price": 6.90,
+        "image": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg"
+      },
+      {
+        "name": "Crispy Baby Corn",
+        "description": "Fried baby corn tossed in spicy sauce.",
+        "price": 5.25,
+        "image": "https://www.sailusfood.com/wp-content/uploads/2016/11/crispy-baby-corn-fry.jpg"
+      }
+    ],
+    "maincourse": [
+      {
+        "name": "Butter Chicken",
+        "description": "Creamy tomato-based chicken curry.",
+        "price": 10.99,
+        "image": "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg"
+      },
+      {
+        "name": "Paneer Butter Masala",
+        "description": "Paneer cubes in rich tomato gravy.",
+        "price": 9.75,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg"
+      },
+      {
+        "name": "Veg Biryani",
+        "description": "Aromatic rice cooked with vegetables and spices.",
+        "price": 8.50,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/veg-biryani-recipe-1.jpg"
+      },
+      {
+        "name": "Chicken Biryani",
+        "description": "Fragrant basmati rice layered with spicy chicken.",
+        "price": 11.25,
+        "image": "https://images.pexels.com/photos/7841648/pexels-photo-7841648.jpeg"
+      },
+      {
+        "name": "Dal Makhani",
+        "description": "Slow-cooked black lentils with butter and cream.",
+        "price": 7.99,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2019/04/dal-makhani-recipe-1.jpg"
+      },
+      {
+        "name": "Rajma Chawal",
+        "description": "Kidney bean curry served with rice.",
+        "price": 6.75,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/05/rajma-recipe-1.jpg"
+      },
+      {
+        "name": "Egg Curry",
+        "description": "Boiled eggs in a spicy curry base.",
+        "price": 7.25,
+        "image": "https://www.whiskaffair.com/wp-content/uploads/2020/03/Dhaba-Style-Egg-Curry-1.jpg"
+      },
+      {
+        "name": "Palak Paneer",
+        "description": "Paneer cubes in spinach-based gravy.",
+        "price": 8.00,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/palak-paneer-5.jpg"
+      },
+      {
+        "name": "Chana Masala",
+        "description": "Spicy chickpea curry.",
+        "price": 6.50,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/02/chana-masala-recipe-1a.jpg"
+      },
+      {
+        "name": "Fried Rice",
+        "description": "Stir-fried rice with vegetables and sauces.",
+        "price": 7.00,
+        "image": "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg"
+      },
+      {
+        "name": "Chicken Curry",
+        "description": "Spicy and flavorful chicken curry.",
+        "price": 10.25,
+        "image": "https://images.pexels.com/photos/2611917/pexels-photo-2611917.jpeg"
+      },
+      {
+        "name": "Aloo Gobi",
+        "description": "Dry curry of potatoes and cauliflower.",
+        "price": 6.25,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2019/03/aloo-gobi-recipe-1.jpg"
+      },
+      {
+        "name": "Shahi Paneer",
+        "description": "Paneer in creamy, royal Mughlai-style gravy.",
+        "price": 9.25,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/11/shahi-paneer-recipe.jpg"
+      },
+      {
+        "name": "Kadhai Chicken",
+        "description": "Spicy chicken dish with capsicum and onions.",
+        "price": 11.50,
+        "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/01/Chicken-Karahi-Recipe.jpg"
+      },
+      {
+        "name": "Jeera Rice",
+        "description": "Fluffy rice tempered with cumin seeds.",
+        "price": 4.00,
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/jeera-rice-recipe-1.jpg"
+      },
+      {
+        "name": "Plain Roti",
+        "description": "Traditional Indian whole wheat flatbread.",
+        "price": 1.00,
+        "image": "https://images.pexels.com/photos/7625092/pexels-photo-7625092.jpeg"
+      },
+      {
+        "name": "Naan",
+        "description": "Soft and fluffy Indian bread cooked in tandoor.",
+        "price": 1.50,
+        "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg"
+      }
+    ]
+  }

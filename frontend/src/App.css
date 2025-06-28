@@ -1,0 +1,755 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background: #f9f9f7;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  color: #222;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Main wrapper */
+.homepage-root {
+  min-height: 100vh;
+  width: 100vw;
+  background: url('./assets/restro.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top banner */
+.homepage-playbook {
+  background: #263746;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  width: 100vw;
+}
+
+.homepage-playbook-badge {
+  background: #f6a940;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 4px 14px;
+  margin-right: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* Header */
+.homepage-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 24px 60px;
+  border-bottom: 1px solid #f0f0f0;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.homepage-logo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.homepage-logo-text {
+  margin-left: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.homepage-nav {
+  display: flex;
+  gap: 32px;
+  font-size: 16px;
+  color: #222;
+}
+
+.homepage-header-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 15px;
+}
+
+.homepage-trial-btn {
+  margin-left: 18px;
+  padding: 12px 28px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  background: #f6a940;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.homepage-trial-btn:hover {
+  background: #263746;
+  color: #fff;
+}
+
+/* Hero Section */
+.homepage-hero {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 10px 100px 10px;
+  background: rgba(249, 249, 247, 0.85);
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.homepage-badge {
+  display: inline-block;
+  background: #fff;
+  color: #263746;
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 36px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 16px rgba(60,60,60,0.08);
+}
+
+.homepage-badge-code {
+  background: none;
+  color: #f6a940;
+  font-weight: bold;
+  margin-left: 8px;
+  font-family: inherit;
+  font-size: 15px;
+  border: none;
+  padding: 0;
+}
+
+.homepage-badge-github {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.homepage-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 0 auto 18px auto;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  max-width: 800px;
+  font-family: 'Playfair Display', serif;
+  color: #222;
+  text-align: center;
+}
+
+.homepage-desc {
+  margin: 0 auto 42px auto;
+  font-size: 1.3rem;
+  color: #444;
+  max-width: 600px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.homepage-cta {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.homepage-cta-main {
+  background: #263746;
+  color: #fff;
+  padding: 16px 36px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(38,55,70,0.10);
+}
+
+.homepage-cta-main:hover {
+  background: #f6a940;
+  color: #222;
+}
+
+.homepage-cta-secondary {
+  background: #fff;
+  color: #263746;
+  padding: 16px 36px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid #263746;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.homepage-cta-secondary:hover {
+  background: #f6a940;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .homepage-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 16px;
+    gap: 10px;
+  }
+  .homepage-nav {
+    gap: 18px;
+    font-size: 15px;
+  }
+  .homepage-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage-title {
+    font-size: 1.6rem;
+  }
+  .homepage-desc {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  .homepage-cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
+  /* ////////////////////* menu /////////////////////*/
+  /* Base styles and resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  background: linear-gradient(to bottom, #faf7f2, #f5f0e8);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container layout with subtle background pattern */
+.menu {
+  padding: 3rem 0 5rem;
+  background-image: 
+    radial-gradient(circle at 25px 25px, rgba(0,0,0,0.02) 2%, transparent 3%),
+    radial-gradient(circle at 75px 75px, rgba(0,0,0,0.02) 2%, transparent 3%);
+  background-size: 100px 100px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Typography with refined styling */
+.heading_section {
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.heading_section:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ffd966;
+  margin: 1.5rem auto 0;
+}
+
+.heading_section h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  margin-bottom: 0.8rem;
+  color: #222;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.heading_section p {
+  font-size: 1.15rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 3rem 0 1.8rem;
+  color: #222;
+  position: relative;
+  display: inline-block;
+}
+
+h2:after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 3px;
+  background: #ffd966;
+  margin-top: 0.5rem;
+}
+
+/* Menu grid layout with improved spacing */
+.dishes_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+/* Card styling with refined details */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.card button {
+  background-color: #ffd966;
+  color: #333;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 50px;
+  margin: 1.2rem 1.2rem 0;
+  align-self: flex-start;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 8px rgba(255, 217, 102, 0.3);
+}
+
+.card button:hover {
+  background-color: #ffc107;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(255, 217, 102, 0.4);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 1.2rem 0.5rem;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.3;
+}
+
+.card p {
+  margin: 0 1.2rem;
+  font-size: 1rem;
+  color: #666;
+  flex-grow: 1;
+  line-height: 1.6;
+}
+
+.card span {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 1.2rem 1.2rem 1.4rem;
+  color: #222;
+  display: block;
+}
+
+/* Responsive adjustments with improved mobile experience */
+@media (max-width: 768px) {
+  .heading_section h1 {
+    font-size: 2.4rem;
+  }
+  
+  h2 {
+    font-size: 1.9rem;
+    text-align: center;
+    display: block;
+  }
+  
+  h2:after {
+    margin: 0.5rem auto 0;
+  }
+  
+  .dishes_container {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+  
+  .heading_section h1 {
+    font-size: 2rem;
+  }
+  
+  .dishes_container {
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+  }
+  
+  .card {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+/* Custom animations and effects */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+  animation: fadeIn 0.6s ease forwards;
+  opacity: 0;
+}
+
+.dishes_container .card:nth-child(1) { animation-delay: 0.1s; }
+.dishes_container .card:nth-child(2) { animation-delay: 0.2s; }
+.dishes_container .card:nth-child(3) { animation-delay: 0.3s; }
+.dishes_container .card:nth-child(4) { animation-delay: 0.4s; }
+
+/* Price tag styling */
+.card span::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+  background: #ffd966;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+/* /////////////////////////// RESERVATION ///////////////////////////////////////// */
+ .new-reservation-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.new-reservation-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.new-reservation-form h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff6b6b;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  margin-top: 1rem;
+}
+
+.with-icon {
+  position: relative;
+}
+
+.with-icon input {
+  padding-right: .5rem;
+}
+
+.with-icon .icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.with-icon .icon:hover {
+  color: #ff6b6b;
+}
+
+button[type='submit'] {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+button[type='submit']:hover {
+  background-color: #e85454;
+}
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-error {
+  color: red;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.summary-box {
+  background: #fff7f7;
+  border-left: 4px solid #ff6b6b;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.summary-box h3 {
+  margin-bottom: 0.75rem;
+  color: #ff6b6b;
+}
+
+.summary-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.summary-box li {
+  padding: 0.25rem 0;
+  color: #333;
+}
+
+/* **************BOOKING HISTORY************* */
+.booking-history {
+  padding: 30px;
+  background-color: #f3f4f6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #d32f2f;
+  margin-bottom: 30px;
+}
+
+.ticket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Boarding Pass Layout */
+.boarding-pass {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  border: 2px solid #d32f2f;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Red Top Header */
+.boarding-pass-header {
+  background-color: #d32f2f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Main Body (White Area) */
+.boarding-pass-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  position: relative;
+}
+
+/* Passenger Information */
+.passenger-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #111;
+}
+
+/* Plane Icon */
+.plane-icon {
+  font-size: 4rem;
+  color: #d32f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dashed separator line */
+.dashed-line {
+  border-top: 2px dashed #d32f2f;
+}
+
+/* Footer section */
+.boarding-pass-footer {
+  background-color: #fbe9e7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  font-size: 0.95rem;
+}
+
+.ticket-id {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Buttons */
+.ticket-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.update-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.update-btn {
+  background-color: #0277bd;
+  color: #fff;
+}
+
+.update-btn:hover {
+  background-color: #01579b;
+}
+
+.delete-btn {
+  background-color: #c62828;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+}
+
+.no-bookings {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .boarding-pass-body {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .plane-icon {
+    align-self: center;
+  }
+
+  .boarding-pass-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
